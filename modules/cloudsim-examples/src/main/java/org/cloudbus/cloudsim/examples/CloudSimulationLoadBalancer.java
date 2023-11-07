@@ -1,4 +1,4 @@
-package org.cloudbus.cloudsim.examples;// Filename: CloudSimulation.java
+package org.cloudbus.cloudsim.examples;// Filename: CloudSimulationLoadBalancer.java
 
 import org.cloudbus.cloudsim.*;
 import org.cloudbus.cloudsim.core.CloudSim;
@@ -8,7 +8,7 @@ import org.cloudbus.cloudsim.provisioners.RamProvisionerSimple;
 
 import java.util.*;
 
-public class CloudSimulation {
+public class CloudSimulationLoadBalancer {
     public static void main(String[] args) {
         runScenario("Scenario 1", false);
 //        runScenario("Scenario 2", true);
